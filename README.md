@@ -8,6 +8,8 @@ A ideia principal é criar um pequeno sistema com telas crud (create, read, upda
 
 Vamos descrever a seguir a funcionalidade de cada arquivo criado no sistema:
 
+![](http://i.imgur.com/pEOH3b8.png)
+
 - **includes** Nesta pasta ficam os arquivos da base do sistema, que devem ser inseridos pelos outros arquivos que a usam.
 - **includes/banco.php** Classe para conexão com o banco de dados mySql, através do PDO. Esta classe pode ser utilizada em qualquer sistema PHP para acesso ao banco de dados através do PDO. A forma de utilização desta classe está descrita no tópico a seguir.
 - **includes/cabecalho.php** Contém o cabeçalho HTML da página, incluindo a chamada ao bootstrap, a inclusão do título da página, do menu.php e de uma mensagem de erro definida através da variável ERRO.
